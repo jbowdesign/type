@@ -6,7 +6,7 @@
     }
     
     body{
-    background-color: pink;
+    background-color: #fff2bd;
     font-family: 'Lemonada';
 }
 /* how the page wrapper will appear on mobile */
@@ -30,7 +30,7 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-background-color: lightcoral;
+background-color: #dec872;
 }
 
 #variations{
@@ -43,13 +43,13 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(138, 21, 21);
+    background-color: #586548;
     height:200px;
 }
 
 /* font styling area */
 h2{
-    color: firebrick;
+    color: #eed833;
     font-variation-settings: "wght" 900;
 }
 
@@ -92,7 +92,7 @@ h3{
 
 h5{
     font-size:40px;
-    color:blue;
+    color:#c7a931;
     margin:15px;
 }
 
