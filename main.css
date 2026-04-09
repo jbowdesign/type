@@ -30,7 +30,7 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-background-color: #dec872;
+background-color: #ffffff;
 }
 
 #variations{
@@ -39,6 +39,7 @@ grid-area: v;
 
 #alphabet {
 grid-area: a;
+background-color: #eed833;
 }
 }
 /* CSS for the footer */
