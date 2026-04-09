@@ -6,7 +6,7 @@
     }
     
     body{
-    background-color: #fff2bd;
+    background-color: #ffffff;
     font-family: 'Lemonada';
 }
 /* how the page wrapper will appear on mobile */
@@ -35,11 +35,12 @@ background-color: #DEC872;
 
 #variations{
 grid-area: v;
+background-color:#FFF2BD;
 }
 
 #alphabet {
 grid-area: a;
-background-color: #eed833;
+background-color: #6a9f95;
 }
 }
 /* CSS for the footer */
