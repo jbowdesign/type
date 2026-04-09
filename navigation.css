@@ -58,7 +58,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: #c7a931;
+      color: #ffffff;
   }
   
   .nav-checkbox:checked ~ nav {
@@ -85,7 +85,7 @@
   
           display: block;
           /* color of the hamburger menu */
-          background: #fff2bd;
+          background: #ffffff;
           /* how far the hamburger menu is from the top */
           margin-top:7px;
           height: 3px;

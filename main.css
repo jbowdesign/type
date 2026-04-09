@@ -51,7 +51,7 @@ footer{
 
 /* font styling area */
 h2{
-    color: #eed833;
+    color: #ffffff;
     font-variation-settings: "wght" 900;
 }
 
@@ -60,6 +60,7 @@ h3{
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
+    color: #c7a931;
 }
 /* channged animation settings */
 @keyframes weightChange {
@@ -96,6 +97,14 @@ h5{
     font-size:40px;
     color:#c7a931;
     margin:15px;
+}
+
+.section-title {
+    color: #DEC872;
+}
+
+.history-highlight {
+    color: #ffffff;
 }
 
 /* variable font that changes on hover */
