@@ -18,9 +18,27 @@ body{
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* where to change the width of the columns on desktop view */
-    width: min(100% - 3rem, 95ch);
+    width: min(100% - 3rem, 180ch);
     margin-inline: auto;
 }
+#history {
+grid-area: h;
+background-color: #DEC872;
+padding:10px;
+}
+
+#variations{
+grid-area: v;
+background-color:#FFF2BD;
+padding: 10px;
+}
+
+#alphabet {
+grid-area: a;
+background-color: #6a9f95;
+padding: 10px;
+}
+
 /* how the page wrapper appears on desktop */
 
 @media only screen and (min-width:800px){
@@ -42,16 +60,19 @@ body {
 #history {
 grid-area: h;
 background-color: #DEC872;
+padding:10px;
 }
 
 #variations{
 grid-area: v;
 background-color:#FFF2BD;
+padding: 10px;
 }
 
 #alphabet {
 grid-area: a;
 background-color: #6a9f95;
+padding: 10px;
 }
 }
 /* CSS for the footer */
@@ -92,7 +113,7 @@ footer{
 /* font styling area */
 h2{
     color: #ffffff;
-    font-variation-settings: "wght" 900;
+    font-variation-settings: "wght" 600;
 }
 
 h3{
@@ -110,7 +131,7 @@ h3{
     0%, 100%{
         font-variation-settings:"wght" 200;
     }
-    50%{font-variation-settings: "wght" 900;
+    50%{font-variation-settings: "wght" 600;
     }
 }
 /* animations for the variations section */
@@ -121,7 +142,7 @@ h3{
     0%, 100%{
         font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "opsz" 16, "wght" 600, "slnt" 0;
     }
 }
 /* where the animation is for the width change */
@@ -132,7 +153,7 @@ h3{
     0%, 100%{
         font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "opsz" 16, "wght" 600, "slnt" 0;
     }
 }
 
