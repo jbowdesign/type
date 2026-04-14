@@ -5,10 +5,16 @@
     font-weight: normal;
     }
     
-    body{
-    background-color: #ffffff;
+body{
+    margin: 0;
+    min-height: 100vh;
     font-family: 'Lemonada';
+    background:
+        url("assets/Lemons.png") center/cover fixed no-repeat;
+    background-color: #ffffff;
+    color: #3E4239;
 }
+
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* where to change the width of the columns on desktop view */
@@ -66,6 +72,9 @@ h3{
     font-size: 5em;
     animation: weightChange 7s infinite;
     color: #c7a931;
+    text-shadow:
+        0 12px 24px rgba(0, 0, 0, 0.35),
+        0 4px 12px rgba(0, 0, 0, 0.18);
 }
 /* channged animation settings */
 @keyframes weightChange {
