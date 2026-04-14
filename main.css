@@ -12,7 +12,7 @@ body{
     background:
         url("assets/Lemons.png") center/cover fixed no-repeat;
     background-color: #ffffff;
-    color: #3E4239;
+    color: #1A1A1A;
 }
 
 /* how the page wrapper will appear on mobile */
@@ -57,7 +57,36 @@ background-color: #6a9f95;
 /* CSS for the footer */
 footer{
     background-color: #586548;
-    height:200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.footer-text p {
+    margin: 0.1rem 0;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 0.85rem 1.25rem;
+    color: #ffffff;
+    background-color: #c7a931;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.download-button:hover {
+    background-color: #e0c95f;
+    transform: translateY(-1px);
 }
 
 /* font styling area */
